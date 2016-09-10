@@ -69,6 +69,17 @@ p {
   margin:10px;
 }
 
+
+figure {
+  float: right;
+  display: inline-block;
+  margin: 20px;
+}
+
+figcaption {
+  padding-left: 10px;
+}
+
 img {
   float:right;
   margin:0px 0px 10px 10px;
@@ -77,6 +88,7 @@ img {
 
 aside {
   width:80%;
+  margin-top: 100px;
   margin-right:auto;
   margin-left:auto;
   font-size:.8em;
