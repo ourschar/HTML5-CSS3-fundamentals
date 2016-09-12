@@ -1,0 +1,13 @@
+.fancy {
+	color:purple;
+	cursor:pointer;
+	border:2px solid yellow;
+	width:100px;
+	padding:5px;
+	transition: width 2s, height 2s, color 2s, font 2s, border 2s, transform 2s;
+}
+
+.fancy:hover {
+	font-size:20px;
+	border:10px solid orange;
+}
