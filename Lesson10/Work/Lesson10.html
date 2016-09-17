@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Lesson 10 - Creating Forms</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <h1>Creating Forms</h1>
+    <form method="POST" action="https://formspree.io/charward77@hotmail.com">
+    <p>
+    <div class="form-group">
+      <label for="customerName">Customer name</label>
+      <input type="text" id="customerName" name="customerName" maxlength="10" placeholder="Parent's Name" class="form-control">
+    </div>
+    </p>
+
+    <fieldset>
+      <legend>Pizza Size</legend>
+      <p>
+        <label>
+          <input type="radio" name="size" value="small"> Small (10 inch)
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="radio" name="size" value="medium"> Medium (12 inch)
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="radio" name="size" value="large"> Large (14 inch)
+        </label>
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Pizza Toppings</legend>
+        <p>
+          <label>
+            <input type="checkbox" name="toppings" value="bacon">Bacon
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" name="toppings" value="cheese">Extra Cheese
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" name="toppings" value="onion">Onion
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" name="toppings" value="mushroom">Mushroom
+          </label>
+        </p>
+    </fieldset>
+
+    <p>Crust
+    <select name="crust">
+      <option value="c1">Normal</option>
+      <option value="c2">Chicago Deep Dish (+ $2)</option>
+      <option value="c3">New York Thin</option>
+    </select>
+    </p>
+
+    <p>
+      <label>Delivery Instructions:
+        <textarea name="comments" cols="50" rows="5" maxlength="1000">How do we get to your house?</textarea>
+      </label>
+    </p>
+
+    <p><input type="submit" value="Continue to Step 2"></p>
+    <p><input type="reset" value="Reset Values"></p>
+
+    </form>
+  </body>
+</html>
