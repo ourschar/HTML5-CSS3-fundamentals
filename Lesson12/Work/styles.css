@@ -1,0 +1,21 @@
+﻿h1 {
+	font-family: Arial;
+	color: purple;
+}
+
+
+.important {
+	color: red;
+}
+
+#somesuch {
+	color:blue;
+}
+
+span.important {
+	color:darkred;
+}
+
+h1, h2, h3, p.important {
+	margin-left:50px;
+}
